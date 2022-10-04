@@ -80,8 +80,8 @@ main {
 }
 .abt-grd {
     display: grid;
-    grid-template-columns: 1fr,1fr;
-    grid-template-rows:1fr, 1fr, 1fr,1fr;
+    grid-template-columns: 1fr,1fr, 1fr, 1fr, 1fr;
+    grid-template-rows:1fr, 1fr, 1fr,1fr, 1fr, 1fr;
     width: 700px;
     height: 100;
     grid-gap: 10px;
@@ -134,33 +134,28 @@ p {
     grid-column: 1 / 2;
 
 }
-/*.team{
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows:1fr,1fr;
-    width: 100px;
-    height: 100px;
-    grid-gap: 10px;
-    border-color:#7ba376 ;
-
-}
-.team1{
-    grid-row: 1 / 2;
+/*
+.grd-item4{
+    grid-row: 4 / 5;
     grid-column: 1 / 2;
 }
 .team2{
-    grid-row: 1 / 2;
+    grid-row: 4 / 5;
     grid-column: 2 / 3;
 }
 .team3{
-    grid-row: 1 / 2;
+    grid-row: 4 / 5;
     grid-column: 3 / 4;
 }
 .team4{
-    grid-row: 1 / 2;
+    grid-row: 4 / 5;
     grid-column: 4 / 5;
-}*/
-/*.img-spacegarden-3 {
+}
+.imgs{
+    margin: 20px;
+    width: 900px;
+}
+.img-spacegarden-3 {
     width: 400px;
     height: 350px;
     margin: 0px;
